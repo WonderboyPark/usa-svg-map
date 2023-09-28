@@ -1,0 +1,108 @@
+
+        :root {
+          --lee-maroon-state: #76232f;
+          --lee-navy-state: #041e42;
+          --lee-flame-state: #e86a5c;
+          --lee-umbrella-state: #fdda25;
+          --lee-downtown-state: #00a3ad;
+          --lee-fountain-state: #69b3e7;
+          --lee-parchment-state: #dfd1a7;
+          --lee-doxology-state: #563d82;
+          --lee-valor-state: #b94700;
+          --lee-a-gold-state: #c99700;
+          --lee-a-park-state: #8f993e;
+          --lee-growth-state: #c4d600;
+          --lee-tn-state: #ededed;
+        }
+
+        .us-state {
+          stroke: #ffffff;
+          stroke-width: 2;
+        }
+        .lee-maroon {
+          fill: var(--lee-maroon-state);
+          background-color: var(--lee-maroon-state);
+        }
+        .lee-navy {
+          fill: var(--lee-navy-state);
+          background-color: var(--lee-navy-state);
+        }
+        .lee-flame {
+          fill: var(--lee-flame-state);
+          background-color: var(--lee-flame-state);
+        }
+        .lee-umbrella {
+          fill: var(--lee-umbrella-state);
+          background-color: var(--lee-umbrella-state);
+        }
+        .lee-downtown {
+          fill: var(--lee-downtown-state);
+          background-color: var(--lee-downtown-state);
+        }
+        .lee-fountain {
+          fill: var(--lee-fountain-state);
+          background-color: var(--lee-fountain-state);
+        }
+        .lee-parchment {
+          fill: var(--lee-parchment-state);
+          background-color: var(--lee-parchment-state);
+        }
+        .lee-doxology {
+          fill: var(--lee-doxology-state);
+          background-color: var(--lee-doxology-state);
+        }
+        .lee-valor {
+          fill: var(--lee-valor-state);
+          background-color: var(--lee-valor-state);
+        }
+        .lee-a-gold {
+          fill: var(--lee-a-gold-state);
+          background-color: var(--lee-a-gold-state);
+        }
+        .lee-a-park {
+          fill: var(--lee-a-park-state);
+          background-color: var(--lee-a-park-state);
+        }
+        .lee-growth {
+          fill: var(--lee-growth-state);
+          background-color: var(--lee-growth-state);
+        }
+        .tn-state {
+          fill: var(--lee-tn-state);
+          background-color: var(--lee-tn-state);
+        }
+
+        a path.us-state {
+          opacity: 1;
+        }
+
+        a path.us-state:hover {
+          opacity: 0.8;
+        }
+
+        .admin-names-wrapper {
+          display: flex;
+          gap: 25%;
+          align-items: stretch;
+          flex-direction: row;
+          flex-wrap: wrap;
+          justify-content: space-evenly;
+        }
+
+        .name-wrapper {
+          display: flex;
+          justify-content: space-evenly;
+          gap: 8px;
+          align-items: center;
+        }
+
+        .name {
+          font-weight: bold;
+          margin-top: 25px;
+        }
+
+        .name-color {
+          width: 30px;
+          height: 30px;
+          border-radius: 50%;
+        }
